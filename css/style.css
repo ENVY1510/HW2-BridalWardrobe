@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box
+}
+.body {
+  font-family: arizonia;
+  font-size: 16px;
+  color: #615454;
+  margin: 0;
+  background-color: #FCFBF6;
+}
+.img-100 {
+  width: 100%;
+  height: auto;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/*header*/
+header {
+  margin: auto;
+  width: 100%;
+  height: 60px;
+  background-color: #CAC0B6;
+}
+.navbar {
+	display: flex;
+	justify-content: center;
+}
+.navbar a {
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 20px 20px;
+  font-size: 20px;
+  color: #996666;
+  font-weight: bold;
+}
+.navbar a:hover {
+  color: white;
+}
+.navbar a.active {
+  background-color: #615454;
+  color: white;
+}
+.btn {
+  border: 1px solid #CAC0B6;
+  background-color: #CAC0B6;
+  color: #996666;
+  padding: 17px 28px;
+  font-size: 20px;
+  cursor: pointer;
+	align-items: center;
+	font-weight: bold;
+	font-family: arizonia;
+}
+.btn:hover {
+  background-color: #F9EDE4;
+	border: 1px solid #996666;
+	border-radius: 40px;
+  color: #996666;
+}
+
+/* body*/
+main {
+  width: 100%;
+  min-height: 500px;
+  clear: both;
+}
+.title-name {
+  color: #67564F;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 30px;
+}
+.item-name {
+  color: #6A605A;
+  font-size: 20px;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+.item-price {
+  color: #615454;
+  font-size: 14px;
+	font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+.item-sku {
+  color: #7A7063;
+  font-size: 12px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+}
+.w-25 {
+  width: 25%;
+  padding: 5px;
+  float: left;
+}
+.border {
+  width: 100%;
+  min-height: 450px;
+  border: 1px solid #CAC0B6;
+  text-align: center;
+  padding: 0px;
+	padding-bottom: 15px;
+  line-height: 25px;
+  margin:10px 30px;
+  background-color: #F9EDE4;
+  border-radius: 50px 10px 10px;
+}
+div.border:hover {
+  border: 2px solid #996666 ;
+}
+.border-radius {
+  border-radius: 50px 10px 0px 0px;
+}
+/*footer*/
+footer {
+  background-color: #F9EDE4;
+  height: 40px;
+  width: 100%;
+  color: #615454;
+  clear: both;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+}
